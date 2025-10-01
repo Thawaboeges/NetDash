@@ -16,11 +16,11 @@ O arquivo pode ser consumido no Excel para montar um dashboard interativo com **
    python --version
 ### Linux/Mac
 Normalmente o Python já vem instalado. Para confirmar:
-
-bash
-Copiar código
-python3 --version
-📦 2. Instalação das Bibliotecas
+```bash
+   python3 --version
+´´´
+   
+### 📦 2. Instalação das Bibliotecas
 No terminal/prompt, execute dentro da pasta do projeto:
 
 bash
