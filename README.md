@@ -14,7 +14,7 @@ O arquivo pode ser consumido no Excel para montar um dashboard interativo com **
 3. Para confirmar, abra o Prompt de Comando e digite:
    ```bash
    python --version
-Linux/Mac
+### Linux/Mac
 Normalmente o Python já vem instalado. Para confirmar:
 
 bash
@@ -28,7 +28,7 @@ Copiar código
 pip install scapy pandas tqdm
 ⚠️ Windows: instale também o Npcap em modo compatível com WinPcap para permitir captura de pacotes.
 
-🛠️ 3. Configuração do Script
+### 🛠️ 3. Configuração do Script
 Arquivo principal: traffic_capture.py
 
 No início do código, existe esta linha:
@@ -43,7 +43,7 @@ Ajuste o tamanho da janela em segundos (opcional):
 python
 Copiar código
 WINDOW_SIZE = 5
-▶️ 4. Executando o Script
+### ▶️ 4. Executando o Script
 No terminal/prompt, vá até a pasta do projeto e rode:
 
 bash
@@ -63,7 +63,7 @@ Salvar os resultados no arquivo traffic.csv
 
 Para encerrar, use Ctrl + C.
 
-📂 5. Estrutura do CSV
+### 📂 5. Estrutura do CSV
 Cada linha do traffic.csv terá as colunas:
 
 css
@@ -77,7 +77,7 @@ direction: "in" (entrada) ou "out" (saída)
 
 *_bytes: quantidade de bytes por protocolo
 
-📈 6. Criando o Dashboard no Excel
+### 📈 6. Criando o Dashboard no Excel
 Passo 1: Importar o CSV
 Abra o Excel
 
@@ -117,7 +117,7 @@ Clique com o botão direito na Tabela Dinâmica → Atualizar
 
 O Excel vai recarregar os dados mais recentes do traffic.csv
 
-🧪 7. Testes e Solução de Problemas Comuns
+### 🧪 7. Testes e Solução de Problemas Comuns
 🔹 Como Testar Rapidamente
 Configure o IP local no arquivo traffic_capture.py:
 
@@ -161,7 +161,7 @@ O arquivo pode estar aberto no Excel
 
 Feche o arquivo e o script continuará gravando normalmente
 
-✅ Padrões Adotados
+### ✅ Padrões Adotados
 PEP 8: estilo de código Python
 
 PEP 257: docstrings completas
@@ -172,7 +172,7 @@ Producer: process_packet()
 
 Consumer: writer_thread()
 
-📜 Licença
+### 📜 Licença
 Este projeto está sob a licença MIT.
 Sinta-se à vontade para usar, modificar e compartilhar.
 
@@ -181,7 +181,6 @@ Copiar código
 
 ---
 
-Quer que eu já monte um **README.md formatado com badges (versão Python, licença, status)** para ficar com estilo mais profissional de GitHub?
 
 
 
