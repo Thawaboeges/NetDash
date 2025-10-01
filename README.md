@@ -1,25 +1,26 @@
-README
-📊 Dashboard de Tráfego de Servidor em Tempo Real (CSV + Excel)
+
+#  📊 Dashboard de Tráfego de Servidor em Tempo Real (CSV + Excel)
 Este projeto captura pacotes de rede de um servidor específico (SERVER_IP), agrega o tráfego em janelas de 5 segundos e salva em um arquivo CSV.
 O arquivo pode ser consumido no Excel para montar um dashboard interativo com drill-down.
 
-⚙️ 1. Instalação do Python
-Windows
-Baixe e instale o Python 3.10+ em: python.org/downloads
-Durante a instalação, marque a opção “Add Python to PATH”.
-Para confirmar, abra o Prompt de Comando e digite:
+#  ⚙️ 1. Instalação do Python
+#  Windows
+1. Baixe e instale o Python 3.10+ em: python.org/downloads
+2. Durante a instalação, marque a opção “Add Python to PATH”.
+3. Para confirmar, abra o Prompt de Comando e digite:
 python --version
-Linux/Mac
+
+#  Linux/Mac
 Normalmente o Python já vem instalado. Para confirmar:
 
 python3 --version
-📦 2. Instalação das Bibliotecas
+#  📦 2. Instalação das Bibliotecas
 No terminal/prompt, execute dentro da pasta do projeto:
 
 pip install scapy pandas tqdm
 ⚠️ Windows: instale também o Npcap em modo compatível com WinPcap para permitir captura de pacotes.
 
-🛠️ 3. Configuração do Script
+# 🛠️ 3. Configuração do Script
 Arquivo principal: traffic_capture.py
 
 Existe essa linha no início do código:
