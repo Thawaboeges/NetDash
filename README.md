@@ -8,6 +8,7 @@ O arquivo pode ser consumido no Excel para montar um dashboard interativo com dr
 1. Baixe e instale o Python 3.10+ em: python.org/downloads
 2. Durante a instalação, marque a opção “Add Python to PATH”.
 3. Para confirmar, abra o Prompt de Comando e digite:
+```bash
 python --version
 
 #  Linux/Mac
@@ -31,7 +32,7 @@ SERVER_IP = "  "
 Ajuste o tamanho da janela em segundos (opcional):
 
 WINDOW_SIZE = 5
-▶️ 4. Executando o Script
+# ▶️ 4. Executando o Script
 No terminal/prompt, vá até a pasta do projeto e rode:
 
 python traffic_capture.py
