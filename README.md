@@ -45,7 +45,7 @@
    No terminal/prompt, vá até a pasta do projeto e rode:
    
 
-   python traffic_capture.py
+   python traffic.py
    Windows: abra o Prompt de Comando como Administrador
    
    Linux/Mac: rode com sudo se necessário
