@@ -25,6 +25,7 @@
    
   
    pip install scapy pandas tqdm
+   
    ⚠️ Windows: instale também o Npcap em modo compatível com WinPcap para permitir captura de pacotes.
    
    ### 🛠️ 3. Configuração do Script
