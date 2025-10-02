@@ -129,7 +129,8 @@ Em outro terminal, gere tráfego de teste com um ping contínuo:
 
    ping 127.0.0.1 -t   # Windows
    ping 127.0.0.1      # Linux/Mac (Ctrl+C para parar)
-   Verifique o traffic.csv: os pacotes de ping aparecerão no protocolo "OTHER"
+   
+Verifique o traffic.csv: os pacotes de ping aparecerão no protocolo "OTHER"
    
    ⚠️ Problemas Comuns
    O script não captura nenhum pacote / CSV vazio:
