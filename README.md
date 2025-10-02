@@ -16,6 +16,7 @@
       python --version
    ### Linux/Mac
    Normalmente o Python já vem instalado. Para confirmar:
+     
      python3 --version**
    
       
@@ -31,8 +32,6 @@
    
    No início do código, existe esta linha:
    
-   python
-   Copiar código
    SERVER_IP = " "
    ➡️ Troque " " pelo IP do servidor que você deseja monitorar.
    
@@ -81,7 +80,7 @@
    
    Selecione traffic.csv e clique em Carregar
    
-   Passo 2: Criar uma Tabela Dinâmica
+  # Passo 2: Criar uma Tabela Dinâmica
    Inserir → Tabela Dinâmica
    
    Configure assim:
@@ -92,14 +91,14 @@
    
    Valores: total_bytes
    
-   Passo 3: Gráfico Empilhado
+   # Passo 3: Gráfico Empilhado
    Selecione a Tabela Dinâmica
    
    Vá em Inserir → Gráfico de Colunas → Coluna Empilhada
    
    Cada barra representará o tráfego total, dividido por protocolo
    
-   Passo 4: Drill-down com Slicers
+   # Passo 4: Drill-down com Slicers
    Clique na Tabela Dinâmica
    
    Vá em Analisar → Inserir Segmentação de Dados
@@ -108,7 +107,7 @@
    
    Agora você pode clicar em um cliente e ver apenas os dados dele (drill-down)
    
-   Passo 5: Atualizar Dados
+   # Passo 5: Atualizar Dados
    Clique com o botão direito na Tabela Dinâmica → Atualizar
    
    O Excel vai recarregar os dados mais recentes do traffic.csv
@@ -120,10 +119,11 @@
 
    SERVER_IP = "127.0.0.1"
    Execute o script:
-   
- 
-   python traffic_capture.py
-   Em outro terminal, gere tráfego de teste com um ping contínuo:
+   ```bash
+      python traffic_capture.py
+```
+
+Em outro terminal, gere tráfego de teste com um ping contínuo:
    
 
    ping 127.0.0.1 -t   # Windows
