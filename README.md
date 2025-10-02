@@ -22,8 +22,7 @@
    ## 📦 2. Instalação das Bibliotecas
    No terminal/prompt, execute dentro da pasta do projeto:
    
-   bash
-   Copiar código
+  
    pip install scapy pandas tqdm
    ⚠️ Windows: instale também o Npcap em modo compatível com WinPcap para permitir captura de pacotes.
    
@@ -45,8 +44,7 @@
    ### ▶️ 4. Executando o Script
    No terminal/prompt, vá até a pasta do projeto e rode:
    
-   bash
-   Copiar código
+
    python traffic_capture.py
    Windows: abra o Prompt de Comando como Administrador
    
@@ -65,8 +63,7 @@
    ### 📂 5. Estrutura do CSV
    Cada linha do traffic.csv terá as colunas:
    
-   css
-   Copiar código
+ 
    window_start, window_end, client_ip, direction, total_bytes, http_bytes, ftp_bytes, tcp_bytes, udp_bytes, other_bytes
    window_start / window_end: início e fim da janela (timestamp legível)
    
@@ -120,18 +117,15 @@
    🔹 Como Testar Rapidamente
    Configure o IP local no arquivo traffic_capture.py:
    
-   python
-   Copiar código
+
    SERVER_IP = "127.0.0.1"
    Execute o script:
    
-   bash
-   Copiar código
+ 
    python traffic_capture.py
    Em outro terminal, gere tráfego de teste com um ping contínuo:
    
-   bash
-   Copiar código
+
    ping 127.0.0.1 -t   # Windows
    ping 127.0.0.1      # Linux/Mac (Ctrl+C para parar)
    Verifique o traffic.csv: os pacotes de ping aparecerão no protocolo "OTHER"
@@ -151,8 +145,6 @@
    
    Rode novamente:
    
-   bash
-   Copiar código
    pip install scapy pandas tqdm
    Erro de Permissão ao salvar traffic.csv:
    
