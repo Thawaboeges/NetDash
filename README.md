@@ -73,7 +73,7 @@
    *_bytes: quantidade de bytes por protocolo
    
    ### 📈 6. Criando o Dashboard no Excel
-   Passo 1: Importar o CSV
+   # Passo 1: Importar o CSV
    Abra o Excel
    
    Vá em Dados → Obter Dados → De Arquivo → De Texto/CSV
