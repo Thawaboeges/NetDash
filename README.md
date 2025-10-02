@@ -29,7 +29,7 @@
    ⚠️ Windows: instale também o Npcap em modo compatível com WinPcap para permitir captura de pacotes.
    
    ### 🛠️ 3. Configuração do Script
-   Arquivo principal: traffic_capture.py
+   Arquivo principal: traffic.py
    
    No início do código, existe esta linha:
    
